@@ -1,0 +1,128 @@
+@font-face {
+  font-family: nasa;
+  src: url(/recursos/nasalization-rg.otf);
+}
+@font-face {
+  font-family: comfortaa;
+  src: url(/recursos/Comfortaa-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+/* Header */
+.title {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0.7%;
+  max-width: 100%;
+  background-color: #000;
+}
+.title h1 a {
+  color: white;
+  font-size: 50px;
+  height: 85px;
+  top: 10px;
+  text-decoration: none;
+}
+/* Main */
+main {
+  margin: 30px 0;
+  font-family: comfortaa;
+}
+#subtitulo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 2px solid #ccc;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+/* Footer */
+footer {
+  background-color: #000;
+  margin: 0;
+  padding: 4% 4% 4.5% 4%;
+  cursor: default;
+}
+footer a {
+  color: #b9b9bb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.parte1 {
+  padding-top: 4%;
+  max-width: 350px;
+  font-family: comfortaa;
+}
+.parte1 h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.parte1 p {
+  font-size: 14px;
+  padding: 20px 0;
+  color: #b9b9bb;
+}
+.parte1 a {
+  color: #b9b9bb;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.parte1 a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+#logo_footer {
+  width: 60px;
+}
+#linea_footer {
+  margin: 40px 0;
+  height: 0.5px;
+  width: 100%;
+  background-color: #58585b;
+}
+.parte2 {
+  font-size: 14px;
+  font-family: comfortaa;
+  color: #b9b9bb;
+}
+.parte2 a {
+  position: relative;
+  margin-right: 35px;
+}
+.parte2 a:hover {
+  text-decoration: underline;
+}
+.parte2 p {
+  color: #959599;
+  display: inline-block;
+  margin-right: 45px;
+  padding-top: 35px;
+}
+.parte2 span {
+  font-size: 15px;
+  color: #b9b9bb;
+}
